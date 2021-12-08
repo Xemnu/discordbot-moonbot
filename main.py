@@ -44,4 +44,4 @@ async def user(ctx, member : discord.Member):
     embed.set_footer(icon_url = ctx.author.avatar_url, text = f"Requested by {ctx.author.name}")
     await ctx.send(embed=embed)
 
-client.run("OTE2NzAzNjY5ODk3MDE1MzM3.YauA0g.6DIW2nj446W5q3eqFRzgiTm4Axg")
+client.run("token")
